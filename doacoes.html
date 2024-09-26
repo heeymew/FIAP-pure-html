@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VoluntárioS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Projeto Pacotinho de Amor</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="adote.html">Animais Disponíveis</a></li>
+                <li><a href="divulgacoes.html">Participação em Feirinhas</a></li>
+                <li><a href="doacoes.html">Como Ajudar</a></li>
+                <li><a href="guia.html">Guia para Novos Adotantes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="informacoes">
+            <h2>Como você pode ajudar</h2>
+            <p>Seu apoio é essencial para continuarmos nosso trabalho em prol dos animais. Veja como você pode contribuir:</p>
+            <ul>
+                <li><strong>Doações:</strong> Aceitamos doações de ração, medicamentos e suprimentos.</li>
+                <li><strong>Voluntariado:</strong> Junte-se a nós para ajudar em eventos, cuidar dos animais e muito mais.</li>
+            </ul>
+        </section>
+
+        <section id="formulario-ajuda">
+            <h2>Formulário de Interesse</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="tipo-ajuda">Tipo de Ajuda:</label>
+                <select id="tipo-ajuda" name="tipo-ajuda" required>
+                    <option value="doacao">Doação</option>
+                    <option value="voluntario">Voluntário</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como você gostaria de ajudar?" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto Pacotinho de Amor. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
