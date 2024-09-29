@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VoluntárioS</title>
+    <title>Participação em Feirinhas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <header>
         <h1>Projeto Pacotinho de Amor</h1>
         <nav>
-            <ul>
+            <ul> <!-- Lista/navbar com todas as páginas do site -->
                 <li><a href="index.html">Início</a></li>
                 <li><a href="adote.html">Animais Disponíveis</a></li>
                 <li><a href="divulgacoes.html">Participação em Feirinhas</a></li>
@@ -22,40 +22,43 @@
         </nav>
     </header>
 
-    <main>
-        <section id="informacoes">
-            <h2>Como você pode ajudar</h2>
-            <p>Seu apoio é essencial para continuarmos nosso trabalho em prol dos animais. Veja como você pode contribuir:</p>
-            <ul>
-                <li><strong>Doações:</strong> Aceitamos doações de ração, medicamentos e suprimentos.</li>
-                <li><strong>Voluntariado:</strong> Junte-se a nós para ajudar em eventos, cuidar dos animais e muito mais.</li>
-            </ul>
+    <main><!--Página de divulgação de eventos-->
+        <section id="informacoes-feirinhas">
+            <h2>Próximas Feirinhas</h2>
+            <div class="feirinhas-container">
+                <article class="feirinha">
+                    <h3>Feirinha de Adoção - Parque Central</h3>
+                    <p><strong>Data:</strong> 15 de Outubro de 2024</p>
+                    <p><strong>Horário:</strong> 10h às 16h</p>
+                    <p><strong>Local:</strong> Parque Central, Rua das Flores, 123</p>
+                    <p>Venha conhecer nossos animais disponíveis para adoção e contribuir com o nosso projeto!</p>
+                </article>
+                <article class="feirinha">
+                    <h3>Feirinha Solidária - Praça da Alegria</h3>
+                    <p><strong>Data:</strong> 22 de Outubro de 2024</p>
+                    <p><strong>Horário:</strong> 9h às 15h</p>
+                    <p><strong>Local:</strong> Praça da Alegria, Av. dos Sonhos, 456</p>
+                    <p>Participe de um dia de festa e solidariedade! Teremos muitos produtos à venda.</p>
+                </article>
+                <article class="feirinha">
+                    <h3>Feirinha de Animais - Centro Comunitário</h3>
+                    <p><strong>Data:</strong> 30 de Outubro de 2024</p>
+                    <p><strong>Horário:</strong> 11h às 17h</p>
+                    <p><strong>Local:</strong> Centro Comunitário, Rua das Estrelas, 789</p>
+                    <p>Traga sua família e amigos para apoiar a adoção de nossos pets!</p>
+                </article>
+            </div>
         </section>
 
-        <section id="formulario-ajuda">
-            <h2>Formulário de Interesse</h2>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Seu email" required>
-
-                <label for="tipo-ajuda">Tipo de Ajuda:</label>
-                <select id="tipo-ajuda" name="tipo-ajuda" required>
-                    <option value="doacao">Doação</option>
-                    <option value="voluntario">Voluntário</option>
-                </select>
-
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como você gostaria de ajudar?" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+        <section id="como-participar"><!--Section para participações e voluntários -->
+            <h2>Como Participar</h2>
+            <p>Se você gostaria de ser voluntário ou colaborar de alguma forma, entre em contato conosco!</p>
+            <p><strong>Email:</strong> contato@projetopacotinhodeamor.com</p>
+            <p><strong>Telefone:</strong> +55 (11) 1234-5678</p>
         </section>
     </main>
 
-    <footer>
+    <footer> <!--Footer sem nada pronto-->
         <p>&copy; 2024 Projeto Pacotinho de Amor. Todos os direitos reservados.</p>
     </footer>
 
