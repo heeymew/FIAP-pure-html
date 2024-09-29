@@ -5,3 +5,4 @@ Criado por:
 Lucas Alves Piereti
 Lucca Pereira Locambo De Olivera
 Diego Merigueti Machado Garcia Tosta
+Joud Jihad Jaber
